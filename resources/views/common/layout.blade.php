@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="ja">
+<html class="no-js" lang="ja">
     <head>
         @yield('head')
         @yield('page_css')

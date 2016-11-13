@@ -10,7 +10,8 @@
         </div>
     </div>
     <h4><span><span><span>目次</span></span></span></h4>
-    <div class="menubox menulist"><ul id="menu1">
+    <div class="menubox menulist">
+        <ul id="menu1">
             <li><a href="./category1/">アフィリエイト入門～０日目編～</a></li>
             <li><a href="./category2/">アフィリエイト入門～１日目編～</a></li>
             <li><a href="./category3/">アフィリエイト入門～２日目編～</a></li>
@@ -19,7 +20,8 @@
             <li><a href="./category7/">アフィリエイト入門～５日目編～</a></li>
             <li><a href="./category8/">アフィリエイト入門～６日目編～</a></li>
             <li><a href="./category4/">一息休憩コラム</a></li>
-        </ul></div>
+        </ul>
+    </div>
     <h4><span><span><span>よく頂くご質問</span></span></span></h4>
     <div class="menubox menulist"><ul id="menu2">
             <li><a href="./category9/">情報教材と一般書籍の違い？</a></li>

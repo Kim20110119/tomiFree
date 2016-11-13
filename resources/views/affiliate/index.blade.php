@@ -5,298 +5,410 @@
 @include('common.footer')
 @include('common.javascript')
 @section('content')
-
+@yield('header')
 <div id="wrapper">
-    <div class="inner">
-        <div id="top">
-            <div class="inner">
-                <h1 id="logo"><span><a href="#">富フリーの道：アフィリエイト</a></span></h1>
+    <main id="main">
+        <div class="page-head">
+            <div class="container hidden-xs">
+                <img src="./images/common/home-main2.png" class="img-responsive" alt="ネットで副業しよう!">
             </div>
-            <div id="topmenubtn"><span>メニュー</span></div>
-            <div id="topmenubox">
-                <div id="searchbox">
-                    <form name="search" id="search" method="get" action="./search.php">
-                        <input type="text" class="skwd" name="keyword" size="20" value="" />
-                        <input type="submit" src="./img/searchbutton.jpg" alt="検索" value="Search" />
-                    </form>
-                </div>
-                <div id="topmenu">
-                    <ul>
-                        <li><a href="#">TOPページ</a></li>
-                        <li><a href="#" target="_blank">小雪メインブログへ</a></li>
-                        <li><a href="#" target="_blank">小雪メルマガへ</a></li>
-                        <li><a href="#" target="_blank">問い合わせ</a></li>
-                    </ul>
-                </div>
+            <div class="visible-xs">
+                <img src="./images/common/home-main-mb2.png" class="img-responsive visible-xs" alt="ネットで副業しよう!">
             </div>
         </div>
-        <div id="headerbox">
-            <div id="header">
-                <img src="./img/header.jpg" alt="アフィリエイトの始め方　完全攻略ガイドブック" />
-                <div id="headertxt">
+
+        <div class="container">
+            <div class="row home-3point">
+                <h3>アフィリエイトとは？</h3>
+                <div class="col-sm-4 home-3point">
+                    <div class="point-icon point-1">
+                        <h4 class="point-pc">副業歴8年の<br>
+                            筆者が徹底解説</h4>
+                        <h4 class="point-mb">副業歴8年の筆者が徹底解説</h4>
+                        <img src="./images/common/top-illust1.png" alt="副業歴8年の著者">
+                    </div>
+                </div>
+                <div class="col-sm-4 home-3point">
+                    <div class="point-icon point-2">
+                        <h4 class="point-pc">月収1〜30万円の<br>
+                            副業が満載</h4>
+                        <h4 class="point-mb">月収1〜30万円の副業が満載</h4>
+                        <img src="./images/common/top-illust2.png" alt="月収1〜30万">
+                    </div>
+                </div>
+                <div class="col-sm-4 home-3point">
+                    <div class="point-icon point-3">
+                        <h4 class="point-pc">資格不要で<br>
+                            誰でも出来る！</h4>
+                        <h4 class="point-mb">資格不要で誰でも出来る！</h4>
+                        <img src="./images/common/top-illust3.png" alt="資格不要">
+                    </div>
+                </div>
+                <div class="home-toptext">
+                    <p>
+                        アフィリエイトとは、サイト(ホームページ)やブログを持つ運営者が、自分のサイトに企業の広告を掲載し、サイトの訪問者がその広告から商品購入やサービスを利用すると、運営者に成果報酬が支払われる広告システムです。
+                    </p>
                 </div>
             </div>
-        </div>
-    </div>
-</div>
-<div class="inner">
-    <div id="column2">
-        <div id="contents">
-            <div id="layoutbox">
-                <div id="main">
-                    <div id="main_container">
-                        <div id="main_inner">
-                            <div id="mainbox">
-                                <div id="mainbox-inner">
-                                    <div class="inner">
-                                        <div id="text1" class="txt-decbox2">
-                                            <div class="top"><div class="top_inner"><div class="top_box"><div class="top_box2">&nbsp;</div></div></div></div>
-                                            <div class="body">
-                                                <p class="txt-img" style="text-align:center"><img src="{{url('img/affiliate/top','ttttp.gif')}}" alt="アフィリエイトの始め方" /></p>
-                                                <p>&nbsp;</p>
-                                                <p class="txt-img"><img src="{{url('img/affiliate/top','kokoru.gif')}}" align="left" /></p>
-                                                <div class="bln balloon7">
-                                                    <p class="img-l">&nbsp;</p>
-                                                    <div class="b_body rnd1">
-                                                        <p>このサイトにたどり着くまでにあなたは</p>
-                                                        <p>&nbsp;</p>
-                                                        <p class="arrow_red">アフィリエイト　初心者</p>
-                                                        <p class="arrow_red">アフィリエイト　入門</p>
-                                                        <p class="arrow_red">アフィリエイト　始め方</p>
-                                                        <p class="arrow_red">アフィリエイト　やり方</p>
-                                                        <p>&nbsp;</p>
-                                                        <p>などなど・・・<br />思いつく限りの言葉を片っ端から検索てみては<br />何故か<span style="color:#FF0A0A">調べれば調べるほど更にわからなく</span>なったり</p>
-                                                        <p>&nbsp;</p>
-                                                        <p>アフィリエイトのスタート方法を知りたいだけなのに<br />そのわかりやすい説明の記事が見つけられずに</p>
-                                                        <p>&nbsp;</p>
-                                                        <p class="txt-img"><img src="{{url('img/affiliate/top','bikkuri01.gif')}}" align="left" alt="アフィリエイト初心者必見" /></p><span style="color:#FF0A0A">どう見ても怪しいサイト</span>ばかりが目に付いたり
-                                                        <p>&nbsp;</p>
-                                                        <p class="txt-img"><img src="{{url('img/affiliate/top','bikkuri01.gif')}}" align="left" alt="アフィリエイト初心者必見" /></p><span style="color:#FF0A0A">如何わしいキャッチフレーズ</span>に惑わされたり
-                                                        <p>&nbsp;</p>
-                                                        <p class="txt-img"><img src="{{url('img/affiliate/top','bikkuri01.gif')}}" align="left" alt="アフィリエイト初心者必見" /></p>何故か<span style="color:#FF0A0A">広告ページに飛ばされてまくり</span>
-                                                        <p>&nbsp;</p>
-                                                        <p>・・・etc・・・</p>
-                                                        <p>&nbsp;</p>
-                                                        <p>そんな迷子になっていませんでしたか？</p>
-                                                    </div>
-                                                </div>
-                                                <br clear="all">
-                                                <p class="txt-img"><img src="./img/cegao.gif" align="left" /></p>
-                                                <div class="bln balloon7">
-                                                    <p class="img-l">&nbsp;</p>
-                                                    <div class="b_body rnd1">
-                                                        <p><span style="font-size:26px;">でもっ！</span></p>
-                                                        <p>&nbsp;</p>
-                                                        <p>今、このサイトにたどり着いたならもうゴールです♪</p>
-                                                    </div>
-                                                </div>
-                                                <br clear="all">
-                                                <p>&nbsp;</p>
-                                                <p style="text-align:center;"><span style="font-size:32px;"><span style="color:#C50000">よくぞたどり着いて頂けました♪</span></span></p>
-                                                <p>&nbsp;</p>
-                                                <p>&nbsp;</p>
-                                                <p class="txt-img"><img src="./img/kegaopera.gif" align="left" /></p>
-                                                <div class="bln balloon7">
-                                                    <p class="img-l">&nbsp;</p>
-                                                    <div class="b_body rnd1">
-                                                        <p>この「アフィリエイトの始め方完全攻略ガイドブック」は<br />そんな迷子アフィリエイトの初心者さんの為に</p>
-                                                        <p>&nbsp;</p>
-                                                        <p>どこよりもわかりやすく<strong>アフィリエイトの始め方</strong>が<br /><span style="color:#FF0A0A">一つ一つ順を追ってわかるようになっています</span></p>
-                                                        <p>&nbsp;</p>
-                                                        <p>アフィリエイト未経験で0状態からスタートするあなたが<br />今から何をどうすればいいのか</p>
-                                                        <p>&nbsp;</p>
-                                                        <p>の作業手順がわかるようになっているサイトなんです</p>
-                                                    </div>
-                                                </div>
-                                                <br clear="all">
-                                                <p class="txt-img"><img src="./img/_1318154242_313.gif" align="left" /></p>
-                                                <div class="bln balloon7">
-                                                    <p class="img-l">&nbsp;</p>
-                                                    <div class="b_body rnd1">
-                                                        <p>しかもこの講座は<span style="color:#C50000">もちろん無料</span>だから安心してね！</p>
-                                                    </div>
-                                                </div>
-                                                <br clear="all">
-
-                                            </div>
-                                            <div class="bottom"><span>&nbsp;</span></div>
-                                        </div>
-
-
-                                        <div id="text2" class="txt-decbox2">
-                                            <div class="top"><div class="top_inner"><div class="top_box"><div class="top_box2"><h3><span><span><span>アフィリエイトの始め方目次　</span></span></span></h3></div></div></div></div>
-                                            <div class="body">
-
-                                                <h5>　はじめての方は上から順にどうぞ♪<img src="./img/yajirushi2_d.gif" alt="アフィリエイトの始め方" /></h5>
-                                                <table class="rnk1item" cellspacing="0">
-                                                    <tbody>
-                                                        <tr>
-                                                            <th>
-                                                                <!-- startRank -->
-                                                                <p><img src="./img/y1.gif" alt="アフィリエイトの始め方" /></p>
-                                                                <!-- /endRank -->
-                                                            </th>
-                                                            <td class="timg"><a href="./category1/"><img alt="アフィリエイトの始め方　０日目" src="./img/1n.jpg" /></a></td>
-                                                            <td>
-                                                                <div class="ttitle"><a href="./category1/">アフィリエイトの始め方　０日目編</a></div>
-                                                                <p>実際にアフィリエイトの作業に取り掛かる前の素朴な疑問や、謎、心の準備など含む「アフィリエイトとは？」に<br />お答えします</p>
-                                                            </td>
-                                                        </tr>
-                                                        <tr>
-                                                            <th>
-                                                                <!-- startRank -->
-                                                                <p><img src="./img/y4.gif" alt="アフィリエイトの始め方" /></p>
-                                                                <!-- /endRank -->
-                                                            </th>
-                                                            <td class="timg"><a href="./category2/"><img alt="アフィリエイトの始め方　１日目" src="./img/0n.jpg" /></a></td>
-                                                            <td>
-                                                                <div class="ttitle"><a href="./category2/">アフィリエイトの始め方　１日目編</a></div>
-                                                                <p>いざ出陣！の前に多くの方が失敗するハンドルネーム・・実はこのハンドルネーム一つにしても<br />「売れないアフィリエイターになってしまう法則」<br />があるのをご存知ですか？</p>
-                                                            </td>
-                                                        </tr>
-                                                        <tr>
-                                                            <th>
-                                                                <!-- startRank -->
-                                                                <p><img src="./img/y2.gif" alt="アフィリエイトの始め方" /></p>
-                                                                <!-- /endRank -->
-                                                            </th>
-                                                            <td class="timg"><a href="./category3/"><img alt="" src="./img/2n.jpg" /></a></td>
-                                                            <td>
-                                                                <div class="ttitle"><a href="./category3/">アフィリエイトの始め方　２日目編</a></div>
-                                                                <p>アフィリエイトをスタートするならまずは<br />アフィリエイト専用メールアドレスの準備をお忘れなく<br />最初のこの一手間で今後の管理が断然楽になりますよ</p>
-                                                            </td>
-                                                        </tr>
-                                                        <tr>
-                                                            <th>
-                                                                <!-- startRank -->
-                                                                <p><img src="./img/y6.gif" alt="アフィリエイトの始め方" /></p>
-                                                                <!-- /endRank -->
-                                                            </th>
-                                                            <td class="timg"><a href="./category5/"><img src="./img/3n.jpg" alt="アフィリエイトの始め方　３日目" /></a></td>
-                                                            <td>
-                                                                <p class="ttitle"><a href="./category5/">アフィリエイトの始め方　３日目編</a></p>
-                                                                <p>さっそく無料ブログで最初のあなたのお店を開店していきます。肩の力を抜いて練習ブログを始めますよ！<br />初めての方でもわかるように無料ブログの作り方を<br />図解で丁寧に説明していきますね</p>
-                                                            </td>
-                                                        </tr>
-                                                        <tr>
-                                                            <th>
-                                                                <!-- startRank -->
-                                                                <p><img src="./img/y8.gif" alt="アフィリエイトの始め方" /></p>
-                                                                <!-- /endRank -->
-                                                            </th>
-                                                            <td class="timg"><a href="./category6/"><img src="./img/4n.jpg" alt="アフィリエイトの始め方　４日目" /></a></td>
-                                                            <td>
-                                                                <p class="ttitle"><a href="./category6/">アフィリエイトの始め方　４日目編</a></p>
-                                                                <p>いよいよアフィリエイト広告を取得する為のASPに登録です<br />ＡＳＰとは一体何だろう？<br />ここが一番面倒な作業の山場になるかな～<br />頑張れ頑張れ！</p>
-                                                            </td>
-                                                        </tr>
-                                                        <tr>
-                                                            <th>
-                                                                <!-- startRank -->
-                                                                <p><img src="./img/y5.gif" alt="アフィリエイトの始め方" /></p>
-                                                                <!-- /endRank -->
-                                                            </th>
-                                                            <td class="timg"><a href="./category7/"><img src="./img/5n.jpg" alt="アフィリエイトの始め方　５日目" /></a></td>
-                                                            <td>
-                                                                <p class="ttitle"><a href="./category7/">アフィリエイトの始め方　５日目編</a></p>
-                                                                <p>さあ！自分のブログに広告を貼ってみましょう♪<br />ここまで頑張った自分へのご褒美として今日はなんと<br />早速ネットから初報酬も得ちゃいましょう♪</p>
-                                                            </td>
-                                                        </tr>
-                                                        <tr>
-                                                            <th>
-                                                                <!-- startRank -->
-                                                                <p><img src="./img/y3.gif" alt="アフィリエイトの始め方" /></p>
-                                                                <!-- /endRank -->
-                                                            </th>
-                                                            <td class="timg"><a href="./category8/"><img src="./img/6n.jpg" alt="アフィリエイトの始め方　６日目" /></a></td>
-                                                            <td>
-                                                                <p class="ttitle"><a href="./category8/">アフィリエイトの始め方　６日目編</a></p>
-                                                                <p>ダメリエイターにならず本当に稼げるアフィリエイターになる為の加速のコツをお伝えします<br />スタートダッシュでコケないようしっかり読んで下さいね</p>
-                                                            </td>
-                                                        </tr>
-                                                        <tr>
-                                                            <th>
-                                                                <!-- startRank -->
-                                                                <p><img src="./img/y7.gif" alt="アフィリエイトの始め方" /></p>
-                                                                <!-- /endRank -->
-                                                            </th>
-                                                            <td class="timg"><a href="./category4/"><img src="./img/7n.jpg" alt="コラム" /></a></td>
-                                                            <td>
-                                                                <p class="ttitle"><a href="./category4/">ちょっと休憩コラム</a></p>
-                                                                <p>作業の合間など、ちょっと気分転換したい時などに読んでね</p>
-                                                            </td>
-                                                        </tr>
-                                                    </tbody>
-                                                </table>
-                                                <p class="txt-img"><img src="./img/cegao.gif" align="left" /></p>
-                                                <div class="bln balloon7">
-                                                    <p class="img-l">&nbsp;</p>
-                                                    <div class="b_body rnd1">
-                                                        <p>記事の順に沿って進めていくと<br />たった6日間であなたもアフィリエイターデビュー<br />ができるようになってるよ！</p>
-                                                        <p>&nbsp;</p>
-                                                        <p>このサイト内のページをすべて読み終わり、<br />書かれている手順通りに作業を進めた暁には<br />もう、<span class="ylw"><span style="color:#FF0A0A">今の「何がわからないのかすらわからない状態」</span></span><br />からはスッパリ卒業できるハズです♪</p>
-                                                        <p>&nbsp;</p>
-                                                        <p>今は有名なアフィリエイターさんの中にも<br />このサイトを最初のきっかけにスタートしたという方が<br />実はたーーくさんいるんだよっ！</p>
-                                                    </div>
-                                                </div>
-                                                <br clear="all">
-
-                                            </div>
-                                            <div class="bottom"><span>&nbsp;</span></div>
-                                        </div>
-                                        <div class="rnd1 rbox1 shadow1">
-                                            <p class="arrow_red">記事がお役に立てたらシェアやお気に入りに追加してくれると嬉しいです</p>
-                                            <br />
-                                            <div class="ninja_onebutton">
-                                                <script type="text/javascript">
-                                                    //<![CDATA[
-                                                    (function (d) {
-                                                        if (typeof (window.NINJA_CO_JP_ONETAG_BUTTON_2ae173daebb3115bbb1d162795134d3c) == 'undefined') {
-                                                            document.write("<sc" + "ript type='text\/javascript' src='http:\/\/omt.shinobi.jp\/b\/2ae173daebb3115bbb1d162795134d3c'><\/sc" + "ript>");
-                                                        } else {
-                                                            window.NINJA_CO_JP_ONETAG_BUTTON_2ae173daebb3115bbb1d162795134d3c.ONETAGButton_Load();
-                                                        }
-                                                    })(document);
-                                                    //]]>
-                                                </script><span class="ninja_onebutton_hidden" style="display:none;"></span><span style="display:none;" class="ninja_onebutton_hidden"></span>
-                                            </div>
-                                            <div style="text-align:center">
-                                                <script type="text/javascript">
-                                                    <!--
-                                                //Internet Explorer
-                                                    if (navigator.userAgent.indexOf("MSIE") > -1) {
-                                                        document.write('<input type="button" value="お気に入りに追加" onclick="window.external.AddFavorite(\'http://beginner.koyuki-afiri.com/\',\'アフィリエイトの始め方　完全攻略ガイドブック\')">');
-                                                    } else if (navigator.userAgent.indexOf("Firefox") > -1) {
-                                                        document.write('<input type="button" value="ブックマークに追加" onclick="window.sidebar.addPanel(\'アフィリエイトの始め方　完全攻略ガイドブック\',\'http://beginner.koyuki-afiri.com/\',\'\');">');
-                                                    } else if (navigator.userAgent.indexOf("Netscape") > -1) {
-                                                        document.write('<input type="button" value="ブックマークに追加" onclick="window.sidebar.addPanel(\'アフィリエイトの始め方　完全攻略ガイドブック\',\'http://beginner.koyuki-afiri.com/\',\'\');">');
-                                                    } else if (navigator.userAgent.indexOf("Opera") > -1) {
-                                                        document.write('<a href="http://beginner.koyuki-afiri.com/" rel="sidebar" title="アフィリエイトの始め方　完全攻略ガイドブック">ブックマークに追加</a>');
-                                                    } else {
-                                                        document.write('<input type="button" value="お気に入りに追加" onclick="alert(\'未対応のブラウザです。ブラウザのお気に入り機能をご利用ください。\');">');
-                                                    }
-                                                    // -->
-                                                </script>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
+            <div class="row home-top3">
+                <h3>稼げる副業TOP3</h3>
+                <div class="col-sm-4 home-top3">
+                    <div class="rank1-fx rank-box">
+                        <a href="./fukugyou/fx/index.html" target="blank"></a>
+                        <div class="top3-title">
+                            <div class="top3-meddal">
+                                <p>1</p>
                             </div>
+                            <h4>FX <span class="popularity"?>←人気!</span></h4>
+                        </div>
+                        <p class="copy-bold">約4,000円からの人気の投資！</p>
+                        <img src="./images/common/illust1-fx.jpg" class=top3-illust alt="FX">
+                        <div class="top3-profile">
+                            <img src="./images/common/people-1.jpg" alt="会社員Aさん">
+                            <div class="hidden-sm">
+                                <p>Aさん<br>
+                                    会社員／30代男性
+                                </p>
+                            </div>
+                            <div class="visible-sm">
+                                <p>Aさん<br>
+                                    会社員<br>
+                                    30代男性
+                                </p>
+                            </div>
+                            <p>24時間、スマホからでも取引出来るので、通勤の合間や仕事の休憩時間に出来るのが嬉しいです！</p>
+                            <h4 class="monthly-income">↓<br>
+                                <span class="mi-body">FXで月々</span><br>約<span class="large-text">34万</span>円
+                            </h4>
                         </div>
                     </div>
                 </div>
-                @yield('menu')
-                <br class="clear" />
+                <div class="col-sm-4 home-top3">
+                    <div class="rank2-crowd rank-box">
+                        <a href="./fukugyou/crowd-sourcing/index.html"></a>
+                        <div class="top3-title">
+                            <div class="top3-meddal">
+                                <p>2</p>
+                            </div>
+                            <h4>クラウドソーシング</h4>
+                        </div>
+                        <p class="copy-bold">幅広いジャンルの仕事が人気！</p>
+                        <img src="./images/common/illust2-crowd.png" class=top3-illust alt="クラウドソーシング">
+                        <div class="top3-profile">
+                            <img src="./images/common/people-2.jpg" alt="フリーターDさん">
+                            <div class="hidden-sm">
+                                <p>Dさん<br>
+                                    フリーター／20代男性
+                                </p>
+                            </div>
+                            <div class="visible-sm">
+                                <p>Dさん<br>
+                                    フリーター<br>
+                                    20代男性
+                                </p>
+                            </div>
+                            <p>いろんな案件が出ていたので始めました。自分のペースで仕事を受けられるので副業に最適です！</p>
+                            <h4 class="monthly-income">↓<br>
+                                <span class="mi-body">クラウドソーシングで月々</span><br>約<span class="large-text">12万</span>円
+                            </h4>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-4 home-top3">
+                    <div class="rank3-aff rank-box">
+                        <a href="./fukugyou/aff/index.html"></a>
+                        <div class="top3-title">
+                            <div class="top3-meddal">
+                                <p>3</p>
+                            </div>
+                            <h4>アフィリエイト</h4>
+                        </div>
+                        <p class="copy-bold">自分のブログが副業に！</p>
+                        <img src="./images/common/illust3-aff.jpg" class=top3-illust alt="アフィリエイト">
+                        <div class="top3-profile">
+                            <img src="./images/common/people-3.jpg" alt="主婦Mさん">
+                            <div class="hidden-sm">
+                                <p>Mさん<br>
+                                    主婦／30代女性
+                                </p>
+                            </div>
+                            <div class="visible-sm">
+                                <p>Mさん<br>
+                                    主婦<br>
+                                    30代女性
+                                </p>
+                            </div>
+                            <p>24時間、スマホからでも取引出来るので、通勤の合間や仕事の休憩時間に出来るのが嬉しいです。</p>
+                            <h4 class="monthly-income">↓<br>
+                                <span class="mi-body">アフィリエイトで月々</span><br>約<span class="large-text">10万</span>円
+                            </h4>
+                        </div>
+                    </div>
+                </div>
             </div>
+            <div class="fx-add">
+                <h2 class="final">稼げる！<span>オススメの副業No.1！</span>「FX」</h2>
+                <div class="show-pc">
+                    <a href="/link/fx.html" target="_blank"><img src="./images/banner/fx-main.jpg" class="img-responsive" alt="教えて！あなたの副業月収・FXでいくら稼げるの？"></a>
+                </div>
+                <div class="show-mb">
+                    <a href="/link/fx.html" target="_blank"><img src="./images/banner/fx-main-mb2.png" class="img-responsive recommend-sm" alt="教えて！あなたの副業月収・FXでいくら稼げるの？"></a>
+                </div>
+                <p class="mt-sm">FXは24時間パソコンやスマホで稼げるため、<b>在宅の副業</b>や<b>空いた時間を使った副業</b>に向いています。約4千円の少額からできる投資として人気があり、短期間で稼ぎたい方に向いています。仕事や家事で時間がない方も、ご自宅で稼ぎたい方も、是非一度チェックしてみてください！</p>
+            </div>
+        </div>
 
+
+
+        <div class="container">
+            <div class="ranking-top">
+                <h2>副業ランキング</h2>
+                <img src="./images/common/icon-rank.png" alt="職業ランキング">
+                <h4>オススメの副業をジャンルごとに解説！</h4>
+            </div>
+            <div class="row">
+                <div class="col-sm-6">
+                    <h3>金融 / 投資</h3>
+                    <ul class="ranking">
+                        <li>
+                            <a href="/fukugyou/fx/">
+                                <div class="r-txt">
+                                    <h4>FX</h4>
+                                    <p>FXとは外国通貨を売買して利益を得る投資です。 4千円の資金からでも始められ投資の中でも簡単で初心者向きです。</p>
+                                </div>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="/fukugyou/kabu/">
+                                <div class="r-txt">
+                                    <h4>株式投資</h4>
+                                    <p>株を売買して配当・差益を得まる投資です。セミナーに通うなど、専門的な知識が必要です。</p>
+                                </div>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="/fukugyou/fudosan/">
+                                <div class="r-txt">
+                                    <h4>不動産投資</h4>
+                                    <p>住むためではなく、賃貸や転売をして利益を生み出す目的で不動産を購入します。</p>
+                                </div>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-sm-6">
+                    <h3>ネット副業</h3>
+                    <ul class="ranking">
+                        <li>
+                            <a href="/fukugyou/aff/">
+                                <div class="r-txt">
+                                    <h4>アフィリエイト</h4>
+                                    <p>自分のブログやホームページに広告やリンクを表示し、そこから報酬をが支払われるものです。</p>
+                                </div>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="/fukugyou/auction/">
+                                <div class="r-txt">
+                                    <h4>ネットオークション</h4>
+                                    <p>要らなくなった物をネットオークションに出品し落札されると、利益が得られます。</p>
+                                </div>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="/fukugyou/sedori/">
+                                <div class="r-txt">
+                                    <h4>せどり/転売</h4>
+                                    <p>安く購入してきた古本や中古DVDなどを、ネット上で転売することで利益を得るビジネスです。</p>
+                                </div>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm-6">
+                    <h3>制作/クリエイター</h3>
+                    <ul class="ranking">
+                        <li>
+                            <a href="/fukugyou/crowd-sourcing/">
+                                <div class="r-txt">
+                                    <h4>クラウドソーシング</h4>
+                                    <p>個人や企業がアウトソースしたい単発の仕事を、ネットを介して請け負います。</p>
+                                </div>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="/fukugyou/blog/">
+                                <div class="r-txt">
+                                    <h4>ブログライター</h4>
+                                    <p>ブログライターとは、自分のブログに依頼された内容の記事を書いて原稿料をもらう仕事です。</p>
+                                </div>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="/fukugyou/youtube/">
+                                <div class="r-txt">
+                                    <h4>YouTuber / YouTube広告</h4>
+                                    <p>Youtubeに動画をアップロードし、閲覧者に広告をクリックしてもらうことで儲けを出します。</p>
+                                </div>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-sm-6">
+                    <h3>代行</h3>
+                    <ul class="ranking">
+                        <li>
+                            <a href="/fukugyou/translation/">
+                                <div class="r-txt">
+                                    <h4>翻訳</h4>
+                                    <p>翻訳の業務は多岐にわたりWebサイト、書類、映像、さらに専門性の高い文章の翻訳業務です。</p>
+                                </div>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="/fukugyou/tape/">
+                                <div class="r-txt">
+                                    <h4>テープ起こし</h4>
+                                    <p>テープ起こしとは、会議や講演会などで録音音声を文字に起こす業務です。</p>
+                                </div>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="/fukugyou/data/">
+                                <div class="r-txt">
+                                    <h4>データ入力</h4>
+                                    <p>データ入力とは、主にパソコンを使っってあらゆるデータを入力する仕事です。</p>
+                                </div>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm-6">
+                    <h3>モニター/懸賞</h3>
+                    <ul class="ranking">
+                        <li>
+                            <a href="/fukugyou/monitor/">
+                                <div class="r-txt">
+                                    <h4>商品モニター</h4>
+                                    <p>商品モニターとは商品を使ったり食べたりして感想を報告して報酬をもらう仕事です。</p>
+                                </div>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="/fukugyou/enquete/">
+                                <div class="r-txt">
+                                    <h4>アンケートモニター</h4>
+                                    <p>アンケートモニターとはネットや郵送、座談会などでアンケートに答える仕事です。</p>
+                                </div>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="/fukugyou/kenshou/">
+                                <div class="r-txt">
+                                    <h4>懸賞</h4>
+                                    <p>懸賞に応募して当たればお金やプレゼントが当たります。もれなくプレゼントもありますが、配当金額は低いです。</p>
+                                </div>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-sm-6">
+                    <h3>資格/技能</h3>
+                    <ul class="ranking">
+                        <li>
+                            <a href="/fukugyou/tutor/">
+                                <div class="r-txt">
+                                    <h4>添削 / 赤ペン先生</h4>
+                                    <p>添削は、通信教育などの答案の丸つけをする仕事です。</p>
+                                </div>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="/fukugyou/tutor/">
+                                <div class="r-txt">
+                                    <h4>家庭教師</h4>
+                                    <p>家庭教師とは小学生～高校生に学業を教える業務です。</p>
+                                </div>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="/fukugyou/taxi/">
+                                <div class="r-txt">
+                                    <h4>個人タクシー</h4>
+                                    <p>タクシードライバーとして車に乗客を乗せ対価を受け取る場合には、第二種運転免許を取得する必要があります。</p>
+                                </div>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <p>　<a href="./fukugyou/index.html"><i class="fa fa-chevron-circle-right" aria-hidden="true"></i>ランキングをもっと見る</a></p>
+            </div>
+        </div>
+
+      　<div class="container">
+            <h2>副業予備知識</h2>
+            <ul class="article-home">
+                <li>
+                    <a href="/article/barenai/">
+                        <div class="r-img">
+                            <img src="./images/content/barenai-300x158.png" alt="会社にバレない副業の方法">
+                        </div>
+                        <div class="r-txt">
+                            <h4>会社に副業がバレないためにやるべき3つのコト</h4>
+                            <p>副業が認められている会社であっても、副業をしている事を言いにくい方も多いのではないでしょうか？そんな方必見の、会社にバレない副業の方法をお伝えいたします。</p>
+                        </div>
+                    </a>
+                </li>
+                <li>
+                    <a href="/article/koumuin/">
+                        <div class="r-img">
+                            <img src="./images/content/koumuin-300x158.png" alt="公務員でもできる副業とは？">
+                        </div>
+                        <div class="r-txt">
+                            <h4>公務員は副業禁止？副業が許可される職業とは</h4>
+                            <p>民間企業のサラリーマンだけでなくて、公務員の給与の実態も良い状態とは言えないのがいまの日本です。公務員でもできる副業についてまとめています。</p>
+                        </div>
+                    </a>
+                </li>
+            </ul>
+        </div>
+
+    </main>
+
+    <div class="container">
+        <div class="sns-container">
+            <ul class="sns">
+                <li class="facebook">
+                    <a href="http://www.facebook.com/share.php?u=pageUrlReplace" onclick="window.open(this.href, 'FBwindow', 'width=650, height=450, menubar=no, toolbar=no, scrollbars=yes'); return false;"><span class="icon-facebook"></span><span class="sns-text">シェア</span></a>
+                </li>
+                <li class="twitter">
+                    <a href="http://twitter.com/share?url=pageUrlReplace&text=pageMetaTitleReplace" target="_blank"><span class="icon-twitter"></span><span class="sns-text">ツイート</span></a>
+                </li>
+                <li class="line">
+                    <a href="http://line.me/R/msg/text/?pageMetaTitleReplace%0D%0ApageUrlReplace" target="_blank"><span class="icon-line"></span><span class="sns-text">LINE</span></a>
+                </li>
+                <li class="hatena">
+                    <a href="http://b.hatena.ne.jp/entry/pageUrlReplace" class="hatena-bookmark-button" data-hatena-bookmark-layout="simple" title="pageMetaTitleReplace"><span class="icon-hatena"></span><span class="sns-text">はてブ</span></a>
+                    <script type="text/javascript" src="http://b.st-hatena.com/js/bookmark_button.js" charset="utf-8" async="async"></script>
+                </li>
+            </ul>
+        </div>
+        <hr>
+        <h2 class="final">私がオススメする副業！<span>短期間で最も稼げる副業</span>「FX」</h2>
+        <div class="show-pc">
+            <a href="/link/fx.html" target="_blank"><img src="/images/banner/fx-main.jpg" class="img-responsive" alt="教えて！あなたの副業月収・FXでいくら稼げるの？"></a>
+        </div>
+        <div class="show-mb">
+            <a href="/link/fx.html" target="_blank"><img src="/images/banner/fx-main-mb.jpg" class="img-responsive recommend-sm" alt="教えて！あなたの副業月収・FXでいくら稼げるの？"></a>
+        </div>
+        <p class="mt-sm">FXは24時間パソコンやスマホで稼げるため、<b>在宅の副業</b>や<b>空いた時間を使った副業</b>に向いています。約4千円の少額からできる投資として人気があり、短期間で稼ぎたい方に向いています。FXの始め方については、こちらのサイトに分かりやすくまとまっているのでオススメです。</p>
+        <div class="text-center mb-lg">
+            <a href="/link/fx.html" target="_blank" class="btn-main"><i class="fa fa-chevron-circle-right" aria-hidden="true"></i>FXでいくら稼げるの？</a>
         </div>
     </div>
-    <div id="btnbox">
-        <ul>
-            <li id="toppage"><a href="./">Home</a></li>
-            <li id="pagetop"><a href="#top">Page Top</a></li>
-        </ul>
-    </div>
-    <div id="gotop"><span><img src="{{url('img/affiliate/common','page_top.png')}}" alt="pagetop"></span></div>
 </div>
 @endsection
