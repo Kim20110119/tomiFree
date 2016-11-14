@@ -1,168 +1,122 @@
-@extends('affiliate.common.layout')
-@include('affiliate.common.head')
-@include('affiliate.common.header')
-@include('affiliate.common.menu')
-@include('affiliate.common.footer')
-@include('affiliate.common.javascript')
+@extends('point.common.layout')
+@include('point.common.head')
+@include('point.common.header')
+@include('point.common.menu')
+@include('point.common.footer')
+@include('point.common.javascript')
 @section('content')
 @yield('header')
 <div id="wrapper">
     <main id="main">
         <div class="page-head">
             <div class="container hidden-xs">
-                <img src="{{url('img/affiliate/common','home-main2.png')}}" class="img-responsive" alt="ネットで副業しよう!">
-            </div>
-            <div class="visible-xs">
-                <img src="{{url('img/affiliate/common','home-main-mb2.png')}}" class="img-responsive visible-xs" alt="ネットで副業しよう!">
             </div>
         </div>
 
         <div class="container">
+            <div class="row home-top3">
+                <h3>ポイントサイトとは？</h3>
+            </div>
             <div class="row home-3point">
-                <h3>アフィリエイトとは？</h3>
                 <div class="col-sm-4 home-3point">
                     <div class="point-icon point-1">
-                        <h4 class="point-pc">副業歴8年の<br>
-                            筆者が徹底解説</h4>
-                        <h4 class="point-mb">副業歴8年の筆者が徹底解説</h4>
-                        <img src="{{url('img/affiliate/common','top-illust1.png')}}" alt="副業歴8年の著者">
+                        <h4 class="point-pc">
+                            クリックポイント
+                        </h4>
+                        <img src="{{url('img/point/common','click_icon-256x256.png')}}" alt="クリックポイント">
                     </div>
                 </div>
                 <div class="col-sm-4 home-3point">
                     <div class="point-icon point-2">
-                        <h4 class="point-pc">月収1〜30万円の<br>
-                            副業が満載</h4>
-                        <h4 class="point-mb">月収1〜30万円の副業が満載</h4>
-                        <img src="{{url('img/affiliate/common','top-illust2.png')}}" alt="月収1〜30万">
+                        <h4 class="point-pc">
+                            ミニゲーム
+                        </h4>
+                        <img src="{{url('img/point/common','game_icon-256x256.png')}}" alt="ミニゲーム">
                     </div>
                 </div>
                 <div class="col-sm-4 home-3point">
                     <div class="point-icon point-3">
-                        <h4 class="point-pc">資格不要で<br>
-                            誰でも出来る！</h4>
-                        <h4 class="point-mb">資格不要で誰でも出来る！</h4>
-                        <img src="{{url('img/affiliate/common','top-illust3.png')}}" alt="資格不要">
+                        <h4 class="point-pc">
+                            CM動画を見る
+                        </h4>
+                        <img src="{{url('img/point/common','movie_icon-256x256.png')}}" alt="CM動画">
                     </div>
                 </div>
                 <div class="col-sm-4 home-3point">
                     <div class="point-icon point-3">
-                        <h4 class="point-pc">資格不要で<br>
-                            誰でも出来る！</h4>
-                        <h4 class="point-mb">資格不要で誰でも出来る！</h4>
-                        <img src="{{url('img/affiliate/common','top-illust3.png')}}" alt="資格不要">
+                        <h4 class="point-pc">
+                            アンケート
+                        </h4>
+                        <img src="{{url('img/point/common','enquete_icon-256x256.png')}}" alt="アンケート">
+                    </div>
+                </div>
+                <div class="col-sm-4 home-3point">
+                    <div class="point-icon point-3">
+                        <h4 class="point-pc">
+                            レビューや記事を書く
+                        </h4>
+                        <img src="{{url('img/point/common','article_icon-256x256.png')}}" alt="記事">
+                    </div>
+                </div>
+                <div class="col-sm-4 home-3point">
+                    <div class="point-icon point-3">
+                        <h4 class="point-pc">
+                            広告を利用
+                        </h4>
+                        <img src="{{url('img/point/common','advertisement_icon-256x256.png')}}" alt="広告">
                     </div>
                 </div>
                 <div class="home-toptext">
                     <p>
-                        アフィリエイトとは、サイト(ホームページ)やブログを持つ運営者が、自分のサイトに企業の広告を掲載し、サイトの訪問者がその広告から商品購入やサービスを利用すると、運営者に成果報酬が支払われる広告システムです。
+                        ポイントサイトとは、サイト内でいろいろなサービスを利用することでポイントを貯めることができる「お小遣い稼ぎサイト」のことです。
+                        ネットCMを見たり、ミニゲームや、アンケートに答えることでポイントが貯まり、
+                        貯まったポイントは、「現金」「Amazonギフト券」「楽天銀行」「WebMoney」などに交換が可能！
+                        ポイントサイトへの登録は「無料」で、中学生からでも登録できるほど簡単にはじめることができます。
                     </p>
                 </div>
             </div>
             <div class="row home-top3">
-                <h3>稼げる副業TOP3</h3>
+                <h3>お勧めTOP3ポイントサイト</h3>
                 <div class="col-sm-4 home-top3">
                     <div class="rank1-fx rank-box">
-                        <a href="./fukugyou/fx/index.html" target="blank"></a>
+                        <a href="http://pointi.jp/p/?a=rbf880045720" target="_blank"></a>
                         <div class="top3-title">
                             <div class="top3-meddal">
-                                <p>1</p>
+                                <p></p>
                             </div>
-                            <h4>FX <span class="popularity"?>←人気!</span></h4>
+                            <h4>ポイントインカム</h4>
                         </div>
                         <p class="copy-bold">約4,000円からの人気の投資！</p>
-                        <img src="./images/common/illust1-fx.jpg" class=top3-illust alt="FX">
-                        <div class="top3-profile">
-                            <img src="./images/common/people-1.jpg" alt="会社員Aさん">
-                            <div class="hidden-sm">
-                                <p>Aさん<br>
-                                    会社員／30代男性
-                                </p>
-                            </div>
-                            <div class="visible-sm">
-                                <p>Aさん<br>
-                                    会社員<br>
-                                    30代男性
-                                </p>
-                            </div>
-                            <p>24時間、スマホからでも取引出来るので、通勤の合間や仕事の休憩時間に出来るのが嬉しいです！</p>
-                            <h4 class="monthly-income">↓<br>
-                                <span class="mi-body">FXで月々</span><br>約<span class="large-text">34万</span>円
-                            </h4>
-                        </div>
+                        <img src="http://pointi.jp/share_cpn/img/bnr/468_60_2.png" class=top3-illust alt="暮らしをおトクにかえていく｜ポイントインカム" />
                     </div>
                 </div>
                 <div class="col-sm-4 home-top3">
                     <div class="rank2-crowd rank-box">
-                        <a href="./fukugyou/crowd-sourcing/index.html"></a>
+                        <a href="http://pointi.jp/p/?a=rbf880045720" target="_blank"></a>
+                        <a href="http://www.gendama.jp/invite/?frid=6187765&ref=90000-banner" target="_blank"></a>
                         <div class="top3-title">
                             <div class="top3-meddal">
                                 <p>2</p>
                             </div>
-                            <h4>クラウドソーシング</h4>
+                            <h4>げん玉</h4>
                         </div>
-                        <p class="copy-bold">幅広いジャンルの仕事が人気！</p>
-                        <img src="./images/common/illust2-crowd.png" class=top3-illust alt="クラウドソーシング">
-                        <div class="top3-profile">
-                            <img src="./images/common/people-2.jpg" alt="フリーターDさん">
-                            <div class="hidden-sm">
-                                <p>Dさん<br>
-                                    フリーター／20代男性
-                                </p>
-                            </div>
-                            <div class="visible-sm">
-                                <p>Dさん<br>
-                                    フリーター<br>
-                                    20代男性
-                                </p>
-                            </div>
-                            <p>いろんな案件が出ていたので始めました。自分のペースで仕事を受けられるので副業に最適です！</p>
-                            <h4 class="monthly-income">↓<br>
-                                <span class="mi-body">クラウドソーシングで月々</span><br>約<span class="large-text">12万</span>円
-                            </h4>
-                        </div>
+                        <p class="copy-bold">約4,000円からの人気の投資！</p>
+                        <img src="http://www.gendama.jp/img/invitation_banner94.gif" class=top3-illust>
                     </div>
                 </div>
                 <div class="col-sm-4 home-top3">
                     <div class="rank3-aff rank-box">
-                        <a href="./fukugyou/aff/index.html"></a>
+                        <a href="http://osaifu.com/33q1d/" target="_blank"></a>
                         <div class="top3-title">
                             <div class="top3-meddal">
                                 <p>3</p>
                             </div>
-                            <h4>アフィリエイト</h4>
+                            <h4>お財布</h4>
                         </div>
-                        <p class="copy-bold">自分のブログが副業に！</p>
-                        <img src="./images/common/illust3-aff.jpg" class=top3-illust alt="アフィリエイト">
-                        <div class="top3-profile">
-                            <img src="./images/common/people-3.jpg" alt="主婦Mさん">
-                            <div class="hidden-sm">
-                                <p>Mさん<br>
-                                    主婦／30代女性
-                                </p>
-                            </div>
-                            <div class="visible-sm">
-                                <p>Mさん<br>
-                                    主婦<br>
-                                    30代女性
-                                </p>
-                            </div>
-                            <p>24時間、スマホからでも取引出来るので、通勤の合間や仕事の休憩時間に出来るのが嬉しいです。</p>
-                            <h4 class="monthly-income">↓<br>
-                                <span class="mi-body">アフィリエイトで月々</span><br>約<span class="large-text">10万</span>円
-                            </h4>
-                        </div>
+                        <p class="copy-bold">約4,000円からの人気の投資！</p>
+                        <img src="http://osaifu.com/img/friend_guide/banner/468_60_01.jpg" class=top3-illust alt="お財布.com - 無料で手軽に貯まる魔法のお財布">
                     </div>
                 </div>
-            </div>
-            <div class="fx-add">
-                <h2 class="final">稼げる！<span>オススメの副業No.1！</span>「FX」</h2>
-                <div class="show-pc">
-                    <a href="/link/fx.html" target="_blank"><img src="./images/banner/fx-main.jpg" class="img-responsive" alt="教えて！あなたの副業月収・FXでいくら稼げるの？"></a>
-                </div>
-                <div class="show-mb">
-                    <a href="/link/fx.html" target="_blank"><img src="./images/banner/fx-main-mb2.png" class="img-responsive recommend-sm" alt="教えて！あなたの副業月収・FXでいくら稼げるの？"></a>
-                </div>
-                <p class="mt-sm">FXは24時間パソコンやスマホで稼げるため、<b>在宅の副業</b>や<b>空いた時間を使った副業</b>に向いています。約4千円の少額からできる投資として人気があり、短期間で稼ぎたい方に向いています。仕事や家事で時間がない方も、ご自宅で稼ぎたい方も、是非一度チェックしてみてください！</p>
             </div>
         </div>
 

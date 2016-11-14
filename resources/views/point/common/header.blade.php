@@ -1,12 +1,12 @@
 @section('header')
 <header>
     <div class="container">
-        <a href="/"><img src="{{url('img/affiliate/common','logo.png')}}" alt="副業ネット" class="logo"></a>
+        <a href="/"><img src="{{url('img/point/common','logo.png')}}" alt="副業ネット" class="logo"></a>
         <nav id="global-navigation" class="global-navigation">
             <ul class="dropdown">
-                <li><a href="/"><i class="fa fa-home"></i>副業</a></li>
-                <li><a href="/fukugyou/"><i class="fa fa-trophy"></i>副業ランキング</a></li>
-                <li><a href="/article/"><i class="fa fa-graduation-cap"></i>副業予備知識</a></li>
+                <li><a href="/"><i class="fa fa-home"></i>ポイントサイトとは</a></li>
+                <li><a href="/fukugyou/"><i class="fa fa-trophy"></i>ポイントサイトランキング</a></li>
+                <li><a href="/article/"><i class="fa fa-graduation-cap"></i>ポイント稼ぎ予備知識</a></li>
                 <li><a href="/info/"><i class="fa fa-user"></i>プロフィール</a></li>
             </ul>
         </nav>
