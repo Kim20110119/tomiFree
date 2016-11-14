@@ -7,7 +7,6 @@
                 <li><a href="/"><i class="fa fa-home"></i>ポイントサイトとは</a></li>
                 <li><a href="/fukugyou/"><i class="fa fa-trophy"></i>ポイントサイトランキング</a></li>
                 <li><a href="/article/"><i class="fa fa-graduation-cap"></i>ポイント稼ぎ予備知識</a></li>
-                <li><a href="/info/"><i class="fa fa-user"></i>プロフィール</a></li>
             </ul>
         </nav>
         <div class="toggle-dropdown">

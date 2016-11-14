@@ -14,7 +14,7 @@
 <meta property="og:site_name" content="富フリーの道：ポイント">
 <meta property="og:description" content="ポイントサイトの稼ぎ方を紹介し、各ポイントサイトの比較するサイトです。月に1万円〜30万円稼ぐことができるオススメのポイントサイトをご紹介。ネットある環境ならいつでもできる小遣い稼ぎサイトを詳しく紹介しています。">
 <link rel="canonical" href="http://at-fukugyou.net/">
-<link rel="icon" href="#">
+<link rel="icon" href="{{url('img/point','favicon.ico')}}">
 <link rel="apple-touch-icon" sizes="57x57" href="#">
 <link rel="apple-touch-icon" sizes="72x72" href="#">
 <link rel="apple-touch-icon" sizes="114x114" href="#">

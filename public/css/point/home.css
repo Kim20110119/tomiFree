@@ -273,11 +273,11 @@ p.copy-bold {
   background-size: contain;
 }
 .rank2-crowd .top3-meddal p {
-  background: url(../images/common/icon-rank02.jpg) no-repeat;
+  background: url(../../img/point/common/icon-rank02.png) no-repeat;
   background-size: contain;
 }
 .rank3-aff .top3-meddal p {
-  background: url(../images/common/icon-rank03.jpg) no-repeat;
+  background: url(../../img/point/common/icon-rank03.png) no-repeat;
   background-size: contain;
 }
 .top3-title h4 {

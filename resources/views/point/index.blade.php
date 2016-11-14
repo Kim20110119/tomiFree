@@ -16,6 +16,14 @@
         <div class="container">
             <div class="row home-top3">
                 <h3>ポイントサイトとは？</h3>
+                <div class="home-toptext">
+                    <p>
+                        ポイントサイトとは、サイト内でいろいろなサービスを利用することでポイントを貯めることができる「お小遣い稼ぎサイト」のことです。
+                        ネットCMを見たり、ミニゲームや、アンケートに答えることでポイントが貯まり、
+                        貯まったポイントは、「現金」「Amazonギフト券」「楽天銀行」「WebMoney」などに交換が可能！
+                        ポイントサイトへの登録は「無料」で、中学生からでも登録できるほど簡単にはじめることができます。
+                    </p>
+                </div>
             </div>
             <div class="row home-3point">
                 <div class="col-sm-4 home-3point">
@@ -66,14 +74,7 @@
                         <img src="{{url('img/point/common','advertisement_icon-256x256.png')}}" alt="広告">
                     </div>
                 </div>
-                <div class="home-toptext">
-                    <p>
-                        ポイントサイトとは、サイト内でいろいろなサービスを利用することでポイントを貯めることができる「お小遣い稼ぎサイト」のことです。
-                        ネットCMを見たり、ミニゲームや、アンケートに答えることでポイントが貯まり、
-                        貯まったポイントは、「現金」「Amazonギフト券」「楽天銀行」「WebMoney」などに交換が可能！
-                        ポイントサイトへの登録は「無料」で、中学生からでも登録できるほど簡単にはじめることができます。
-                    </p>
-                </div>
+
             </div>
             <div class="row home-top3">
                 <h3>お勧めTOP3ポイントサイト</h3>
@@ -96,7 +97,7 @@
                         <a href="http://www.gendama.jp/invite/?frid=6187765&ref=90000-banner" target="_blank"></a>
                         <div class="top3-title">
                             <div class="top3-meddal">
-                                <p>2</p>
+                                <p></p>
                             </div>
                             <h4>げん玉</h4>
                         </div>
@@ -109,7 +110,7 @@
                         <a href="http://osaifu.com/33q1d/" target="_blank"></a>
                         <div class="top3-title">
                             <div class="top3-meddal">
-                                <p>3</p>
+                                <p></p>
                             </div>
                             <h4>お財布</h4>
                         </div>
