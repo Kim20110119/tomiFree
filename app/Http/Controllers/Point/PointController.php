@@ -4,6 +4,7 @@ namespace App\Http\Controllers\Point;
 
 use App\Http\Controllers\Controller;
 use App\PointCategory;
+use App\PointSite;
 use function view;
 
 class PointController extends Controller {
@@ -31,8 +32,20 @@ class PointController extends Controller {
      */
     public function index() {
         $this->data['page_title'] = 'ポイントTOP画面';
+        //==========================================
+        // ポイントサイトカテゴリーを取得する
+        //==========================================
         $categorys = PointCategory::all();
+        //==========================================
+        // お勧めTOP3のポイントサイトを取得する
+        //==========================================
+        $point_sites_query = PointSite::query();
+        $point_sites = $point_sites_query->where('ranking', '<=', '3')->get();
+        //==========================================
+        // ビュー渡すパラメータを設定する
+        //==========================================
         $this->data['categorys'] = $categorys;
+        $this->data['point_sites'] = $point_sites;
         return view('point.index', $this->data);
     }
 

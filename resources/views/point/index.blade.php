@@ -40,19 +40,17 @@
                 </div>
                 @endforeach
             </div>
-            <div class="container" id="click">
+            <div class="container">
+                @foreach($categorys as $key => $value)
                 <hr>
-                <h2 class="final">クリックポイント</h2>
+                <h2 class="final"  id="{{$value['name_en']}}">{{$value['name']}}</h2>
                 <div class="row">
                     <div class="col-sm-6">
                         <h3>説明</h3>
                         <ul>
                             <li>
                                 <div class="r-txt">
-                                    <p>
-                                        ポイントサイトに登録するとクリックポイント付メールが届きます。
-                                        その中にあるポイント付URLをクリックしてポイントを獲得する方法を リードメールと言います。
-                                        リードメール効率よいやり方の説明 ico_arrow8e_r 「リードメールの攻略法」 クリックポイントの報酬は大体ワンクリック0.1円でげん玉やポイントタウンは クリックURLが大量にありますのでクリックポイントだけでもそこそこ貯まります。</p>
+                                    <p>{{$value['description']}}</p>
                                 </div>
                             </li>
                         </ul>
@@ -60,75 +58,60 @@
                     <div class="col-sm-6">
                         <h3>お勧め</h3>
                         <ul>
+                            @if($value['link_01'] <> '')
                             <li>
-                                <a href="http://www.gendama.jp/invite/?frid=6187765&ref=90000-banner" target="_blank">
+                                <a href="{{$value['link_01']}}" target="_blank">
                                     <div class="rank1 rank-box">
-                                        <img src="http://www.gendama.jp/img/invitation_banner94.gif" class=top3-illust>
+                                        <img src="{{$value['image_01']}}" class=top3-illust>
                                     </div>
                                 </a>
                             </li>
+                            @endif
+                            @if($value['link_02'] <> '')
                             <li>
-                                <a href="http://pointi.jp/p/?a=rbf880045720" target="_blank">
+                                <a href="{{$value['link_02']}}" target="_blank">
                                     <div class="rank2 rank-box">
-                                        <img src="http://pointi.jp/share_cpn/img/bnr/468_60_2.png" class=top3-illust alt="暮らしをおトクにかえていく｜ポイントインカム" />
+                                        <img src="{{$value['image_02']}}" class=top3-illust>
                                     </div>
                                 </a>
                             </li>
+                            @endif
+                            @if($value['link_03'] <> '')
                             <li>
-                                <a href="http://dietnavi.com/?id=3088603" target="_blank">
+                                <a href="{{$value['link_03']}}" target="_blank">
                                     <div class="rank3 rank-box">
-                                        <img src="http://dietnavi.com/pc/banner/gm_friend_468x60.gif" class=top3-illust alt="お小遣い稼ぎならポイントサイトGetMoney!" />
+                                        <img src="{{$value['image_03']}}" class=top3-illust>
                                     </div>
                                 </a>
                             </li>
+                            @endif
                         </ul>
                     </div>
                 </div>
+                @endforeach
+
             </div>
         </div>
         <div class="container">
             <div class="row home-top3">
                 <hr>
                 <h3>私がお勧めするTOP3ポイントサイト</h3>
+                @foreach($point_sites as $key => $value)
                 <div class="col-sm-4 home-top3">
-                    <div class="rank1 rank-box">
-                        <a href="http://pointi.jp/p/?a=rbf880045720" target="_blank"></a>
+                    <div class="rank{{$key + 1}} rank-box">
+                        <a href="{{$value['url']}}" target="_blank"></a>
                         <div class="top3-title">
                             <div class="top3-meddal">
                                 <p></p>
                             </div>
-                            <h4>ポイントインカム</h4>
+                            <h4>{{$value['name']}}</h4>
                         </div>
-                        <p class="copy-bold">約4,000円からの人気の投資！</p>
-                        <img src="http://pointi.jp/share_cpn/img/bnr/468_60_2.png" class=top3-illust alt="暮らしをおトクにかえていく｜ポイントインカム" />
+                        <p class="copy-bold">{{$value['catchphrase']}}</p>
+                        <img src="{{$value['image']}}" class=top3-illust alt="{{$value['catchphrase']}}" />
                     </div>
                 </div>
-                <div class="col-sm-4 home-top3">
-                    <div class="rank2 rank-box">
-                        <a href="http://www.gendama.jp/invite/?frid=6187765&ref=90000-banner" target="_blank"></a>
-                        <div class="top3-title">
-                            <div class="top3-meddal">
-                                <p></p>
-                            </div>
-                            <h4>げん玉</h4>
-                        </div>
-                        <p class="copy-bold">約4,000円からの人気の投資！</p>
-                        <img src="http://www.gendama.jp/img/invitation_banner94.gif" class=top3-illust>
-                    </div>
-                </div>
-                <div class="col-sm-4 home-top3">
-                    <div class="rank3 rank-box">
-                        <a href="http://osaifu.com/33q1d/" target="_blank"></a>
-                        <div class="top3-title">
-                            <div class="top3-meddal">
-                                <p></p>
-                            </div>
-                            <h4>お財布</h4>
-                        </div>
-                        <p class="copy-bold">約4,000円からの人気の投資！</p>
-                        <img src="http://osaifu.com/img/friend_guide/banner/468_60_01.jpg" class=top3-illust alt="お財布.com - 無料で手軽に貯まる魔法のお財布">
-                    </div>
-                </div>
+                @endforeach
+
             </div>
         </div>
     </main>
