@@ -37,13 +37,13 @@ h2 {
 
 /* Home 3point */
 .home-3point {
-  background-color: #e7f7f4;
+  background-color: #f3f3f3;
   margin: 0 0 50px 0;
   border-radius: 10px;
   padding: 15px;
 }
 .home-3point h3 {
-  color: #14b391;
+  color: #696969;
   font-size: 40px;
   text-align: center;
   margin: 0;
@@ -64,20 +64,20 @@ h2 {
   margin: 0;
 }
 .point-icon {
-  border-radius: 50%;
-  height: 340px;
+  border-radius: 10%;
+  height: 200px;
 }
 .point-1 {
-  background-color: #60ca86;
+  background-color: #000000;
 }
 .point-2 {
-  background-color: #2cb392;
+  background-color: #cccccc;
 }
 .point-3 {
   background-color: #60d19c;
 }
 .point-icon img {
-  width: 180px;
+  width: 80px;
   margin-top: 10px;
 }
 .home-toptext{
@@ -206,14 +206,13 @@ h2 {
   }
 }
 
-
 /* Home Top3 */
 .row.home-top3{
   padding: 0 -15px 0 -15px;
   margin-bottom: 50px;
 }
 .home-top3 h3 {
-  background-color: #3994cd;
+  background-color: #000000;
   margin: 0 15px 30px 15px;
   border-radius: 10px;
   font-size: 35px;
@@ -251,13 +250,13 @@ p.copy-bold {
   -moz-opacity: 0.5;
   opacity: 0.5;
 }
-.rank1-fx {
+.rank1 {
   border-color: #ecbb00;
 }
-.rank2-crowd {
+.rank2 {
   border-color: #a8a9a9;
 }
-.rank3-aff {
+.rank3 {
   border-color: #de8427;
 }
 .top3-meddal p{
@@ -268,16 +267,16 @@ p.copy-bold {
   height: 55px;
   margin: 25px;
 }
-.rank1-fx .top3-meddal p {
-  background: url(../../img/point/common/icon-rank01.png) no-repeat;
+.rank1 .top3-meddal p {
+  background: url(../../img/point/ranking/icon-rank01.png) no-repeat;
   background-size: contain;
 }
-.rank2-crowd .top3-meddal p {
-  background: url(../../img/point/common/icon-rank02.png) no-repeat;
+.rank2 .top3-meddal p {
+  background: url(../../img/point/ranking/icon-rank02.png) no-repeat;
   background-size: contain;
 }
-.rank3-aff .top3-meddal p {
-  background: url(../../img/point/common/icon-rank03.png) no-repeat;
+.rank3 .top3-meddal p {
+  background: url(../../img/point/ranking/icon-rank03.png) no-repeat;
   background-size: contain;
 }
 .top3-title h4 {
@@ -303,13 +302,13 @@ img.top3-illust {
   border-style: solid;
   border-radius: 60px;
 }
-.rank1-fx .top3-profile img {
+.rank1 .top3-profile img {
   border-color: #ecbb00;
 }
-.rank2-crowd .top3-profile img {
+.rank2 .top3-profile img {
   border-color: #a8a9a9;
 }
-.rank3-aff .top3-profile img {
+.rank3 .top3-profile img {
   border-color: #de8427;
 }
 .top3-profile p {
@@ -545,7 +544,7 @@ ul.ranking li:before {
   z-index: 1;
 }
 ul.ranking li:nth-child(1):before {
-  background: url(../images/common/icon-rank01.jpg) no-repeat;
+  background: url(../../img/point/ranking/icon-rank01.jpg) no-repeat;
   background-size: cover;
   width: 30px;
   height: 30px;
@@ -555,7 +554,7 @@ ul.ranking li:nth-child(1):before {
   top: 15px;
 }
 ul.ranking li:nth-child(2):before {
-  background: url(../images/common/icon-rank02.jpg) no-repeat;
+  background: url(../../img/point/ranking/icon-rank02.jpg) no-repeat;
   background-size: cover;
   width: 30px;
   height: 30px;
@@ -565,7 +564,7 @@ ul.ranking li:nth-child(2):before {
   top: 15px;
 }
 ul.ranking li:nth-child(3):before {
-  background: url(../images/common/icon-rank03.jpg) no-repeat;
+  background: url(../../img/point/ranking/icon-rank03.jpg) no-repeat;
   background-size: cover;
   width: 30px;
   height: 30px;
