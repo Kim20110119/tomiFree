@@ -50,6 +50,30 @@ class PointController extends Controller {
     }
 
     /**
+     * 富フリーの道：ポイント_ランキング画面の表示
+     *
+     * @return view 富フリーの道：ポイント_ランキング画面
+     */
+    public function ranking() {
+        $this->data['page_title'] = '富フリーの道：ポイント_ランキング画面';
+        //==========================================
+        // ポイントサイトカテゴリーを取得する
+        //==========================================
+        $categorys = PointCategory::all();
+        //==========================================
+        // お勧めTOP3のポイントサイトを取得する
+        //==========================================
+        $point_sites_query = PointSite::query();
+        $point_sites = $point_sites_query->where('ranking', '<=', '3')->get();
+        //==========================================
+        // ビュー渡すパラメータを設定する
+        //==========================================
+        $this->data['categorys'] = $categorys;
+        $this->data['point_sites'] = $point_sites;
+        return view('point.ranking.index', $this->data);
+    }
+
+    /**
      * 富フリーの道：ポイント_クリックポイント画面の表示
      *
      * @return view 富フリーの道：ポイント_クリックポイント画面

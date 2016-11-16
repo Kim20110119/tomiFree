@@ -15,5 +15,7 @@ Route::get('/affiliate', 'Affiliate\AffiliateController@index');
  */
 // 富フリーポイントTOP画面
 Route::get('/point', 'Point\PointController@index');
+// 富フリーポイントランキング画面
+Route::get('/point/ranking', 'Point\PointController@ranking');
 // 富フリーポイントクリックポイント画面
 Route::get('/point/click', 'Point\PointController@click');

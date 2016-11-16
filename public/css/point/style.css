@@ -1035,3 +1035,26 @@ ul.footer-nav li a {
 ul.footer-nav li a:hover {
   color: #fff;
 }
+
+.ranking{
+  width: 100%;
+  border-collapse: collapse;
+  border-top: 1px solid #ccc;
+  border-right: 1px solid #ccc;
+  border-bottom: 1px solid #ccc;
+}
+.ranking th{
+  width:25%;
+  padding: 6px; text-align: left;
+  vertical-align: top;
+  color: #666666;
+  background: url(bg.jpg) repeat-x top left #eee;
+  border-bottom: 1px dotted #999;
+  border-left: 1px solid #ccc;
+}
+.ranking td{
+  width: 25%;
+  padding: 6px;
+  border-bottom: 1px dotted #999;
+  border-left: 1px solid #ccc;
+}
