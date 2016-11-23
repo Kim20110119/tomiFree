@@ -1,0 +1,268 @@
+@charset "UTF-8";
+
+@media screen and (min-width: 920px) {
+	#side_title dt {
+		background-color: #14b391;    
+	    height: 40px;
+	    width: 250px;
+	    line-height: 40px;    		
+		font-size: 16px;
+	    color: #fafafa;
+		padding: 0 0 0 10px;
+		margin-bottom: 9px;
+	    -webkit-text-shadow: 1px 1px 2px #666;
+	    -moz-text-shadow: 1px 1px 2px #666;
+	    text-shadow: 1px 1px 2px #666;
+	    font-weight: 600;
+	}
+	.top3 {
+		text-align:center;
+	    margin-bottom: 10px;
+	}
+
+	.top5-01 {
+		font-size: 13px;
+		text-align:left;
+	    border:1px solid #ccc;
+	    margin-bottom: 5px;
+	}
+
+	.top5-01 a {
+		display: block;
+	    text-decoration: none;
+	    padding: 8px 4px 8px 40px;
+	    margin-left:3px;
+	    background: url(../../img/point/ranking/ranking01_icon-32x32.png) no-repeat 1px 9px;
+	    font-weight: 700;
+	    line-height: 1.5em;
+	}
+	.top5-01 a:visited {
+		color:#06C
+	}
+	.top5-01 a:hover {
+		color:#fafafa;
+	    background: url(../../img/point/ranking/ranking01_icon-32x32.png) no-repeat 1px 9px #333;
+	}
+
+	.top5-02 {
+		font-size: 13px;
+		text-align:left;
+	    border:1px solid #ccc;
+	    margin-bottom: 5px;
+	}
+
+	.top5-02 a {
+		display: block;
+	    text-decoration: none;
+	    padding: 8px 4px 8px 40px;
+	    margin-left:3px;
+	    background: url(../../img/point/ranking/ranking02_icon-32x32.png) no-repeat 1px 9px;
+	    font-weight: 700;
+	    line-height: 1.5em;
+	}
+	.top5-02 a:visited {
+		color:#06C
+	}
+	.top5-02 a:hover {
+		color:#fafafa;
+	    background: url(../../img/point/ranking/ranking02_icon-32x32.png) no-repeat 1px 9px #333;
+	}
+	.top5-03 {
+		font-size: 13px;
+		text-align:left;
+	    border:1px solid #ccc;
+	    margin-bottom: 5px;
+	}
+	.top5-03 a {
+		display: block;
+	    text-decoration: none;
+	    padding: 8px 4px 8px 40px;
+	    margin-left:3px;
+	    background: url(../../img/point/ranking/ranking03_icon-32x32.png) no-repeat 1px 9px;
+	    font-weight: 700;
+	    line-height: 1.5em;
+	}
+	.top5-03 a:visited {
+		color:#06C
+	}
+	.top5-03 a:hover {
+		color:#fafafa;
+	    background: url(../../img/point/ranking/ranking03_icon-32x32.png) no-repeat 1px 9px #333;
+	}
+	.top5-04 {
+		font-size: 13px;
+		text-align:left;
+	    border:1px solid #ccc;
+	    margin-bottom: 5px;
+	}
+	.top5-04 a {
+		display: block;
+	    text-decoration: none;
+	    padding: 8px 4px 8px 40px;
+	    margin-left:3px;
+	    background: url(../../img/point/ranking/ranking04_icon-32x32.png) no-repeat 1px 9px;
+	    font-weight: 700;
+	    line-height: 1.5em;
+	}
+	.top5-04 a:visited {
+		color:#06C
+	}
+	.top5-04 a:hover {
+		color:#fafafa;
+	    background: url(../../img/point/ranking/ranking04_icon-32x32.png) no-repeat 1px 9px #333;
+	}
+	.top5-05 {
+		font-size: 13px;
+		text-align:left;
+	    border:1px solid #ccc;
+	    margin-bottom: 5px;
+	}
+	.top5-05 a {
+		display: block;
+	    text-decoration: none;
+	    padding: 8px 4px 8px 40px;
+	    margin-left:3px;
+	    background: url(../../img/point/ranking/ranking05_icon-32x32.png) no-repeat 1px 9px;
+	    font-weight: 700;
+	    line-height: 1.5em;
+	}
+	.top5-05 a:visited {
+		color:#06C
+	}
+	.top5-05 a:hover {
+		color:#fafafa;
+	    background: url(../../img/point/ranking/ranking05_icon-32x32.png) no-repeat 1px 9px #333;
+	}
+}
+@media screen and (max-width: 919px) {
+	#side_title dt {
+		background-color: #14b391;    
+	    line-height: 40px;    		
+		font-size: 16px;
+	    color: #fafafa;
+		padding: 0 0 0 10px;
+		margin-bottom: 9px;
+	    -webkit-text-shadow: 1px 1px 2px #666;
+	    -moz-text-shadow: 1px 1px 2px #666;
+	    text-shadow: 1px 1px 2px #666;
+	    font-weight: 600;
+	}
+	.top3 {
+		text-align:center;
+	    margin-bottom: 10px;
+	}
+
+	.top5-01 {
+		font-size: 13px;
+		text-align:left;
+	    border:1px solid #ccc;
+	    margin-bottom: 5px;
+	}
+
+	.top5-01 a {
+		display: block;
+	    text-decoration: none;
+	    padding: 8px 4px 8px 40px;
+	    margin-left:3px;
+	    background: url(../../img/point/ranking/ranking01_icon-32x32.png) no-repeat 1px 9px;
+	    font-weight: 700;
+	    line-height: 1.5em;
+	}
+	.top5-01 a:visited {
+		color:#06C
+	}
+	.top5-01 a:hover {
+		color:#fafafa;
+	    background: url(../../img/point/ranking/ranking01_icon-32x32.png) no-repeat 1px 9px #333;
+	}
+
+	.top5-02 {
+		font-size: 13px;
+		text-align:left;
+	    border:1px solid #ccc;
+	    margin-bottom: 5px;
+	}
+
+	.top5-02 a {
+		display: block;
+	    text-decoration: none;
+	    padding: 8px 4px 8px 40px;
+	    margin-left:3px;
+	    background: url(../../img/point/ranking/ranking02_icon-32x32.png) no-repeat 1px 9px;
+	    font-weight: 700;
+	    line-height: 1.5em;
+	}
+	.top5-02 a:visited {
+		color:#06C
+	}
+	.top5-02 a:hover {
+		color:#fafafa;
+	    background: url(../../img/point/ranking/ranking02_icon-32x32.png) no-repeat 1px 9px #333;
+	}
+	.top5-03 {
+		font-size: 13px;
+		text-align:left;
+	    border:1px solid #ccc;
+	    margin-bottom: 5px;
+	}
+	.top5-03 a {
+		display: block;
+	    text-decoration: none;
+	    padding: 8px 4px 8px 40px;
+	    margin-left:3px;
+	    background: url(../../img/point/ranking/ranking03_icon-32x32.png) no-repeat 1px 9px;
+	    font-weight: 700;
+	    line-height: 1.5em;
+	}
+	.top5-03 a:visited {
+		color:#06C
+	}
+	.top5-03 a:hover {
+		color:#fafafa;
+	    background: url(../../img/point/ranking/ranking03_icon-32x32.png) no-repeat 1px 9px #333;
+	}
+	.top5-04 {
+		font-size: 13px;
+		text-align:left;
+	    border:1px solid #ccc;
+	    margin-bottom: 5px;
+	}
+	.top5-04 a {
+		display: block;
+	    text-decoration: none;
+	    padding: 8px 4px 8px 40px;
+	    margin-left:3px;
+	    background: url(../../img/point/ranking/ranking04_icon-32x32.png) no-repeat 1px 9px;
+	    font-weight: 700;
+	    line-height: 1.5em;
+	}
+	.top5-04 a:visited {
+		color:#06C
+	}
+	.top5-04 a:hover {
+		color:#fafafa;
+	    background: url(../../img/point/ranking/ranking04_icon-32x32.png) no-repeat 1px 9px #333;
+	}
+	.top5-05 {
+		font-size: 13px;
+		text-align:left;
+	    border:1px solid #ccc;
+	    margin-bottom: 5px;
+	}
+	.top5-05 a {
+		display: block;
+	    text-decoration: none;
+	    padding: 8px 4px 8px 40px;
+	    margin-left:3px;
+	    background: url(../../img/point/ranking/ranking05_icon-32x32.png) no-repeat 1px 9px;
+	    font-weight: 700;
+	    line-height: 1.5em;
+	}
+	.top5-05 a:visited {
+		color:#06C
+	}
+	.top5-05 a:hover {
+		color:#fafafa;
+	    background: url(../../img/point/ranking/ranking05_icon-32x32.png) no-repeat 1px 9px #333;
+	}
+}

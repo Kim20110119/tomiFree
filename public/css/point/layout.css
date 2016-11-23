@@ -1,0 +1,286 @@
+@charset "UTF-8";
+
+#wrapper ,
+#content ,
+.p_menu-box ,
+.outline {
+	_zoom						: 1;
+	overflow					: hidden;
+	display						: block;
+	float						: none;
+	clear						: both;
+}
+@media screen and (min-width: 920px) {
+	.p_menu li span ,
+	#catch ,
+	.to_top ,
+	#footer ,
+	#foot_menu table ,
+	#foot_menu li {
+		font-size: 11px !important;
+	}
+	#navigation li ,
+	#lv_up dd ,
+	.p_menu p ,
+	#topics_list a ,
+	#topics p#catch ,
+	#topics dt ,
+	#foot_catch {
+		font-size: 12px !important;
+	}
+	#content p {
+		font-size	: 1.1em
+	}
+}
+@media screen and (min-width: 920px) {
+	#wrapper {
+		width:920px;
+		margin:0 auto
+	}
+}
+@media screen and (max-width: 919px) {
+	#wrapper {
+		padding:10px
+	}
+}
+
+
+/*メインコンテンツ*/
+@media screen and (min-width: 920px) {
+	#content {
+		width:650px;
+		float:left
+	}
+	#side {
+		width:250px;
+		float:right
+	}
+	#content p {
+		margin		: 2em 1em;
+	}
+	#content .p_menu p{ 
+		margin		: 0;
+	}
+	.p_menu {
+		padding-bottom:23px
+	}
+}
+@media screen and (max-width: 919px) {
+	#content,
+	#side {
+		width:100%
+	}
+	#content p {
+		margin		: 1em 0;
+	}
+	.p_menu {
+		margin		: 0 0 2em;
+	}
+	#content p.through {
+		margin		: 1em 0 2em;
+		text-align	: center;
+	}
+}
+#content p.to_top {
+	margin		: 0 0 2em;
+}
+
+#content strong {
+	color	: #000000;
+	font-size	: 1.0em;
+}
+
+#content strong.emphasis {
+	color	: #ff6600;
+	font-size	: 1.0em;
+}
+#content p#catch ,
+#content p#topics_list {
+	margin	: 0;
+}
+#content p.breadcrumb {
+	font-size	: 0.8em;
+	margin-top	: 0;
+}
+
+.outline {
+	margin	: 0 0 1em;
+}
+/*index_大見出し部分*/
+#content h2 {
+	margin:0 0 17px;
+}
+
+#content p {
+	color:#333;
+	line-height:2em;
+	-webkit-text-size-adjust:100%
+}
+#content p a:link,
+#content p a:visited {
+	color:#06C
+}
+
+#content p a:hover {
+	color:#39F
+}
+#content table {
+	margin			: 1em;
+}
+#content table,
+#content table th ,
+#content table td {
+	border:2px #836FFF solid;
+	padding:5px;
+	text-align	: center;
+}
+.p_menu p {
+	color:#666!important
+}
+.p_menu .img_l {
+	padding:0 5px 0 0
+}
+.p_menu li a {
+	text-decoration:none
+}
+.p_menu li a:link,
+.p_menu li a:visited {
+	color:#06C
+}
+.p_menu li a:hover {
+	color:#39F
+}
+.p_menu li span {
+	width:45px;
+	display:inline-block;
+	text-align:center;
+	padding:3px;
+	margin-right:7px;
+	color:#FFF;
+	font-weight:700;
+	border-radius:3px;
+	-webkit-border-radius:3px;
+	-moz-border-radius:3px
+}
+.p_menu h3 {
+	font-size:25px;
+	font-weight:700;
+	line-height:25px;
+	padding-bottom:10px
+}
+.p_menu h3 span {
+	font-size:17px;
+	border:1px solid #CCC;
+	padding:1px 7px;
+	margin-right:5px;
+	vertical-align:top;
+	border-radius:3px;
+	-webkit-border-radius:3px;
+	-moz-border-radius:3px
+}
+
+@media screen and (min-width: 920px) {
+	.p_menu a {
+		font-size:15px
+	}
+	.p_menu ul {
+		margin-top:5px
+	}
+	.p_menu li {
+		border-bottom:1px dotted #999;
+		padding:4px 0
+	}
+	.p_menu ul li.plural a {
+		margin						: 0 1em 0 0;
+	}
+}
+
+/* ---- ページトップに戻る ---- */
+
+.to_top {
+	text-align				: right !important;
+}
+.to_top img {
+	vertical-align			: middle
+}
+.to_top a {
+}
+.to_top a:link ,
+.to_top a:visited {
+	color					: #999 !important;
+}
+.to_top a:hover {
+	color					: #666 !important;
+}
+@media screen and (max-width: 919px) {
+	.to_top a {
+		text-decoration			: none;
+		border					: 1px solid #999;
+		-webkit-border-radius	: 3px;
+		   -moz-border-radius	: 3px;
+				border-radius	: 3px;
+		background				: #fff;
+		padding					: 0.2em 0.8em;
+	}
+	.to_top a:hover {
+		border					: 1px solid #666;
+	}
+	.p_menu a {
+		font-size:15px
+	}
+	.p_menu ul {
+		margin-top:5px
+	}
+	.p_menu li {
+		border-bottom:1px dotted #999;
+		padding:4px 0
+	}
+	.p_menu ul li.plural a {
+		margin						: 0 1em 0 0;
+	}
+}
+
+/* ---- others ---- */
+
+.img_r {
+	float:right;
+	padding:0 0 0 15px
+}
+.img_l {
+	float:left
+}
+.int_img_ps {
+	position:relative;
+	right:-14px
+}
+
+/* hr */
+hr.end {
+	clear:both;
+	visibility:hidden;
+	height:1px
+}
+
+/* clearfix */
+.clearfix:after {
+	content:".";
+	display:block;
+	height:0;
+	clear:both;
+	visibility:hidden
+}
+.clearfix {
+	display:inline-block
+}
+/* Hides from IE-mac \*/
+* html .clearfix {
+	height:1%
+}
+.clearfix {
+	display:block
+}
+@media screen and (max-width: 919px) {
+	.images img {
+		width	: 50%;
+	}
+}

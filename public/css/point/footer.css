@@ -1,0 +1,31 @@
+@charset "UTF-8";
+/* PCスクリーンの場合 */
+@media screen and (min-width: 920px) {
+    #footer {
+        background-color:#14b391;
+        padding: 10px 30px 20px 30px;
+        height:5px;
+        text-align: center;
+        color: #fafafa;
+        position:relative
+    }
+    #footer a{
+        color: #fafafa;
+    }
+    #footer p{
+        color: #fafafa;
+    }
+}
+/* スマホスクリーンの場合 */
+@media screen and (max-width: 919px) {
+    #footer {
+        background-color:#14b391;
+        padding: 10px 30px 50px 30px;
+        text-align: center;
+        color: #fafafa;
+        position:relative
+    }
+    #footer a{
+        color: #fafafa;
+    }
+}

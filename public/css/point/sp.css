@@ -1,0 +1,90 @@
+@charset "UTF-8";
+
+@media screen and (max-width: 919px) {
+	.lv_menu {
+		width:100%;
+	}
+	.lv_menu p {
+		margin						: 0.5em 0;
+		_zoom						: 1;
+		overflow					: hidden;
+		display						: block;
+		float						: none;
+		clear						: both;
+	}
+	.lv_menu ul {
+		margin						: 0.5em 0 0;
+		border						: 1px solid #ccc;
+		   -moz-border-radius		: 5px;
+		-webkit-border-radius		: 5px;
+				border-radius		: 5px;
+		background					: #fff;
+	}
+	.lv_menu ul:after {
+		content						: "";
+		display						: block;
+		clear						: both;
+	}
+	.lv_menu ul li {
+		_zoom						: 1;
+		overflow					: hidden;
+		clear						: both;
+		float						: none;
+		border-bottom				: 1px dotted #ccc;
+		text-align					: left;
+		display						: block;
+		line-height					: 1.1em;
+	}
+	.lv_menu ul li:last-child {
+		border-bottom				: none;
+	}
+	.lv_menu ul li span {
+		float						: left;
+		margin						: 0.6em 0 0 0.5em;
+		font-size					: 0.8em;
+	}
+	.lv_menu ul li a {
+		position					: relative;
+		display						: block;
+		padding						: 10px;
+		overflow					: hidden;
+		white-space					: nowrap;
+		text-overflow				: ellipsis;
+	}
+	.lv_menu ul li.plural a {
+		border-top				: 1px dotted #ccc;
+		padding-left			: 4.7em;
+	}
+	.lv_menu ul li.plural a.none {
+		border-top				: none;
+		padding-left			: 10px;
+	}
+	.lv_menu ul li a:before {
+		display						: block;
+		content						: "";
+		position					: absolute;
+		   -moz-transform			: rotate(45deg);
+		-webkit-transform			: rotate(45deg);
+				transform			: rotate(45deg);
+		top							: 50%;
+		right						: 10px;
+		width						: 10px;
+		height						: 10px;
+		margin-top					: -5px;
+		background					: #666;
+	}
+	.lv_menu ul li a:after {
+		display						: block;
+		content						: "";
+		position					: absolute;
+		   -moz-transform			: rotate(45deg);
+		-webkit-transform			: rotate(45deg);
+				transform			: rotate(45deg);
+		top							: 50%;
+		right						: 12px;
+		width						: 10px;
+		height						: 10px;
+		margin-top					: -5px;
+		background					: #fff;
+	}
+}
