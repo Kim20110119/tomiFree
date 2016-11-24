@@ -23,6 +23,6 @@
             <a href="#">稼ぎのリンク</a>
         </li>
     </ul>
-    <p>１時間見れば<strong>「すぐ稼げる！」</strong>まずは<a href="#"><img src="../img/point/common/beginner_icon16x16.png" alt="初心者">「初心者ガイド」</a>へGO！GO！GO！</p>
+    <p>１時間見れば<strong>「すぐ稼げる！」</strong>まずは<a href="#"><img src="{{url('img/point/common','beginner_icon16x16.png')}}" alt="初心者">「初心者ガイド」</a>へGO！GO！GO！</p>
 </div>
 @endsection

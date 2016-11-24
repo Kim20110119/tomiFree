@@ -56,6 +56,36 @@
             font-weight:700;
             margin-top:2em
     }
+    
+    #content .table{
+		width:590px;
+		border-collapse: collapse;
+		border-right: 1px solid #ccc;
+	}
+	#content .table th{
+		width: 25%;
+		padding: 6px;
+		text-align: left;
+		vertical-align: top;
+		color: #fff;
+		background-color: #14b391;
+		border-left: 5px solid #ff6633; 
+		border-top: 1px solid #ccc;
+	}
+	#content .table tr{
+		width: 25%;
+		padding: 6px;
+		background-color: #fafafa;
+		border-top: 1px solid #fff;
+		border-left: 1px solid #fff;
+	}
+	#content .table td{
+		width: 25%;
+		padding: 6px;
+		background-color: #fafafa;
+		border-bottom: 1px solid #fff;
+		border-left: 1px solid #fff;
+	}
 }
 @media screen and (max-width: 919px) {
     #content {
